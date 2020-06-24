@@ -16,7 +16,7 @@ composer install
 
 ## Testing
 Again while on the root directory of this plugin do:
-./vendor/bin/phpunit tests
+`./vendor/bin/phpunit` tests
 
 ## Usage
 Install the plugin and then navigate to `/test-url` and you will see a table with the users which data we are getting from the endpoint mentioned above i.e. `https://jsonplaceholder.typicode.com/users`.
