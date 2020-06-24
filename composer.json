@@ -1,0 +1,24 @@
+{
+  "name": "shemsedin/jsonplaceholder-users",
+  "description": " Gets the data from an external api https://jsonplaceholder.typicode.com, which holds dummy users data.  It further manipulates the data and displays them in an HTML table",
+  "type": "package",
+  "require": {
+    "php": ">=7.0"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "7.5.20",
+    "inpsyde/php-coding-standards": "^0.13.4",
+    "brain/monkey": "^2.4"
+  },
+  "autoload": {
+    "psr-4": {
+      "JsonplaceholderUsers\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "JsonplaceholderUsers\\Tests\\": "tests/"
+    }
+  },
+  "license": "GPL-2.0"
+}
